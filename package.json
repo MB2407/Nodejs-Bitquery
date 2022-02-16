@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple NodeJS app with Bitquery API integration",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "start": "node home",
     "dev": "nodemon home",

@@ -13,7 +13,7 @@
 <body>
 	<style>
 		header{
-			background-color: mediumslateblue; 
+			background-color: rgb(241, 237, 9); 
 			color: white;
 			font-family: 'Lucida Sans';
 			text-align: center; 
@@ -21,7 +21,7 @@
 		}
 
 		body {
-			background: linear-gradient(to bottom right, #DBFBF3, #F5FEFC)
+			background: linear-gradient(to top left, #e8ee8f, #b3fcf8)
 		}
 		h2{
 			text-align: center;
@@ -33,6 +33,17 @@
 	<header>
 		<h1>Using Bitquery GraphQL API with NodeJS</h1>
 	</header>
-	<h2>The count of all the blocks in the Bitcoin DEX is <%= result %></h2>
+	<h2>The BaseAmount of OHLC data's 1st element is <%= result %></h2>
+	<h2>The New Pair's name is : <%= result2 %></h2>
+	<h2>The New Pair's height is : <%= result3 %></h2>
+	<h2>The count of trades taking place on Uniswap is : <%= result4 %></h2>
+	<h2>The most traded token on Ethereum network is : <%= result6 %></h2>
+	<h2>The name of the DEX exchange on the Ethereum network with highest number of trades is : <%= result7 %></h2>
+	<h2>The amount traded for DEX trades by exchange on Ethereum is : <%= result8 %></h2>
+	<h2>The number of trades on sorting traded currencies by time is : <%= result10 %></h2>
+	<h2>The number of contracts for traded currencies by count is : <%= result11 %></h2>
+	<h2>The number of trades in the trade taker segment on Ethereum network is : <%= result12 %></h2>
+	<h2>The top trader in the Trade takers segment on the Ethereum network is : <%= result13 %></h2>
+	<h2>The number of trades taking place on the ethereum network by time is : <%= result15 %></h2>
 </body>
 </html>
