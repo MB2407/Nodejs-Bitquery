@@ -213,7 +213,7 @@ function BitqueryAPICall(){
 	    method: "POST",
 	    headers: {
 	    	"Content-Type": "application/json",
-	      	"X-API-KEY": "BQYedS7YfEFrtiYt9KOSezoT6ChtUReU"
+	      	"X-API-KEY": "USE YOUR API KEY HERE"
 	    },
 	    body: JSON.stringify({
 	        query
